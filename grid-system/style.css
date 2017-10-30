@@ -2,3 +2,10 @@ div[class^="col-"] {
     border: 1px solid black;
     height: 200px;
 }
+
+div[class$="row"]:nth-child(2){
+    border: 1px solid black;
+    height: 200px;
+    background-color: #ce8483;
+}
+
